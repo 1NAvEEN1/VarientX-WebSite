@@ -10,7 +10,10 @@ const Navigation = () => {
   const handleClick = () => setClick(!click);
   return (
     <div>
-      <Grid container mt={1} p={1}>
+      <Grid container sx={{mt:{
+        xs:"none",
+        md:4
+      }}}>
         <Grid
           item
           xs={11}
